@@ -1,0 +1,38 @@
+    .card-footer.text-muted {
+      background-color: blueviolet;
+      color: #e9ecef!important;
+    }
+    .card-footer_bar{
+      color: pink;
+    }
+    .card-header {
+      background-color: blueviolet;
+      padding-bottom: 10px;
+    }
+    h3 { 
+      text-shadow: 3px 2px white;
+      color: pink;
+    }
+    .navbar.navbar-light.bg-light {
+      background-color: #dae0e5!important;
+    }
+      
+    body{
+      background-color: white;
+    }
+
+  .carousel{
+    padding-top: 10px;
+  }
+    
+    .logo {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: auto;
+      
+    }
+    
+
+  
+  

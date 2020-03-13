@@ -1,0 +1,27 @@
+.card-footer.text-muted {
+    background-color: blueviolet;
+    color: #e9ecef!important;
+  }
+  .card-header {
+  
+    background-color: blueviolet;
+  }
+  
+  h3 { 
+    text-shadow: 3px 2px white;
+    color: pink;
+  }
+  .navbar.navbar-light.bg-light {
+    background-color: #dae0e5!important;
+  }
+  
+
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    
+  }
+
+  
