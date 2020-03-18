@@ -41,6 +41,11 @@
     header.masthead h1 {
       font-size: 2rem;
     }
+    .form-row{
+      margin-right: -73px;
+      margin-left: 101px;
+    }
+    
     @media (min-width: 768px) {
       header.masthead {
         padding-top: 12rem;
@@ -73,8 +78,31 @@
     
 
   .carousel{
-    padding-top: 10px;
+    padding-top: 15px;
+    padding-right: inherit;
+    padding-left: inherit;
   }
+  .carousel-indicators li {
+    display: inline-block;
+    width: 12.5px;
+    height: 12.5px;
+    margin: 5px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 25%;
+    background-color: #ae00ff;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    width: 12.5px;
+    height: 12.5px;
+    margin: 5px;
+    background-color: #ff99c0;
+}
+
+  
+
     
     .logo {
       display: block;
@@ -191,5 +219,6 @@ footer.footer {
 body {
 font-family: "Crafty Girls";
 }
-  
+
+}
   
