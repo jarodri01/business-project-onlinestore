@@ -25,14 +25,15 @@
           <a class="nav-link active" href="index.html">Home</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="cart.html">Cart</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="checkOut.html">Checkout</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="gallery.html">Gallery</a>
-        </li>
+       
       </ul>
   </nav>
     <div class="card">
@@ -48,65 +49,65 @@
         <div class="card mb-3" style="max-width: 1040px;">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <img src="images/il_340x270.2270223253_g8k3.jpg" width="200" height="200" class="card-img" alt="...">
+                <img src="images/il_340x270.2270223253_g8k3.jpg" width="200" height="200" class="card-img">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
                   <h5 class="card-title">Shoes</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <p class="card-text"><small class="text-muted">$24.00</small></p>
-                  
+                  <a href="#" class="badge badge-pill badge-danger btn-sm">remove</a>
                 </div>
               </div>
             </div>
           </div>
-          <a href="#" class="badge badge-pill badge-danger btn-sm">remove</a>
+          
           <form>
-            <div class="form-row align-items-center">
+            <div class="form-row">
               <div class="col-auto my-1">
-                <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
-                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                  <option selected></option>
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
+                <label class="mr-sm-2 sr-only" for="item">Preference</label>
+                <select action="" id= "item" name="item"class="custom-select mr-sm-2">
+                  <option value="$24.00">1</option>
+                  <option value="$48.00">2</option>
+                  <option value="$72.00">3</option>
                 </select>
+                <div class="col-auto my-1">
+                  <button onclick= "subMit()" class="badge badge-success">Submit</button>
+                   <p id="showPrice"></p>
               </div>
-              <div class="col-auto my-1">
-                <button type="button" href = "checkOut.html" class="badge badge-success">Submit</button>
               </div>
+             
             </div>
           </form>
           
           <div class="card mb-3" style="max-width: 1040px;">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <img src="images/il_340x270.2222231696_hcff.jpg" width="200" height="200" class="card-img" alt="...">
+                <img src="images/il_340x270.2147520990_s11b.jpg" width="200" height="200" class="card-img" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">custom sealed images</h5>
+                  <h5 class="card-title">Custom phone kits</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <p class="card-text"><small class="text-muted">$54.00</small></p>
-                  
+                  <a href="#" class="badge badge-pill badge-danger btn-sm">remove</a> 
                 </div>
               </div>
             </div>
           </div>
-          <a href="#" class="badge badge-pill badge-danger btn-sm">remove</a>
           <form>
             <div class="form-row align-items-center">
               <div class="col-auto my-1">
-                <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
-                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                  <option selected></option>
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
+                <label class="mr-sm-2 sr-only" for="item">Preference</label>
+                <select action="" id= "item" name="item" class="custom-select mr-sm-2">
+                  <option value="$54.00">1</option>
+                  <option value="$108.00">2</option>
+                  <option value="$162.00">3</option>
                 </select>
-              </div>
               <div class="col-auto my-1">
-                <button  type="button" href="checkOut.html" class="badge badge-success">Submit</button>
+                <button class="badge badge-success" onclick="sunMit()" >Submit</button>
+                <p id="showPrice"></p>
+              </div>
               </div>
             </div>
           </form>
@@ -116,5 +117,17 @@
             <p class="rounded float-right">Copyrights:®Jose Rodriguez</p>
             <h1>Contact email: jthecraftydiva@abc.com</h1>
           </div>
+          <script type="text/javascript">
+             function subMit() {
+                var addItem = document.getElementById("item").value;
+                  document.getElementById("showPrice").innerHTML = addItem;
+             }
+             </script>
+
+           <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
     </body>
     </html>

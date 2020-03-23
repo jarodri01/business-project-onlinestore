@@ -14,8 +14,14 @@
       color: pink;
     }
     .navbar.navbar-light.bg-light {
-      background-color: #dae0e5!important;
+      background-color: pink!important;
     }
+    .card {
+      margin: 0 auto; 
+      float: none; 
+      margin-bottom: 2px; 
+    }
+    
     
   header.masthead {
       position: relative;
