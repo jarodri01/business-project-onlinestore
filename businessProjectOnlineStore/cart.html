@@ -16,7 +16,7 @@
     <!--Header for website-->
     <!-- Image and text -->
 <nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="index.html">
       <img src="images/IMG_8384.JPG" width="30" height="30" class="d-inline-block align-top" alt="">
       JTheCraftyDiva
     </a>
@@ -56,7 +56,7 @@
                   <h5 class="card-title">Shoes</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <p class="card-text"><small class="text-muted">$24.00</small></p>
-                  <a href="#" class="badge badge-pill badge-danger btn-sm">remove</a>
+                  <a href="gallery.html" class="badge badge-pill badge-danger btn-sm">remove</a>
                 </div>
               </div>
             </div>
@@ -72,7 +72,7 @@
                   <option value="$72.00">3</option>
                 </select>
                 <div class="col-auto my-1">
-                  <button onclick= "subMit()" class="badge badge-success">Submit</button>
+                  <button class="badge badge-success" onclick= "subMit"  >Submit</button>
                    <p id="showPrice"></p>
               </div>
               </div>
@@ -90,7 +90,7 @@
                   <h5 class="card-title">Custom phone kits</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <p class="card-text"><small class="text-muted">$54.00</small></p>
-                  <a href="#" class="badge badge-pill badge-danger btn-sm">remove</a> 
+                  <a href="gallery.html" class="badge badge-pill badge-danger btn-sm">remove</a> 
                 </div>
               </div>
             </div>
@@ -105,7 +105,7 @@
                   <option value="$162.00">3</option>
                 </select>
               <div class="col-auto my-1">
-                <button class="badge badge-success" onclick="sunMit()" >Submit</button>
+                <button class="badge badge-success" onclick="subMit" >Submit</button>
                 <p id="showPrice"></p>
               </div>
               </div>
@@ -114,14 +114,16 @@
         </form>
         <a class="btn btn-secondary btn-lg btn-block" href="checkOut.html" role="button">Process Check Out</a>
         <div class="card-footer text-muted">
-            <p class="rounded float-right">Copyrights:®Jose Rodriguez</p>
+            <p class="rounded float-right">Copyrights:Jose Rodriguez®</p>
             <h1>Contact email: jthecraftydiva@abc.com</h1>
           </div>
-          <script type="text/javascript">
+          <script>
+
              function subMit() {
                 var addItem = document.getElementById("item").value;
                   document.getElementById("showPrice").innerHTML = addItem;
              }
+                  
              </script>
 
            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
