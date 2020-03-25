@@ -14,8 +14,14 @@
       color: pink;
     }
     .navbar.navbar-light.bg-light {
-      background-color: #dae0e5!important;
+      background-color: pink!important;
     }
+    .card {
+      margin: 0 auto; 
+      float: none; 
+      margin-bottom: 2px; 
+    }
+    
     
   header.masthead {
       position: relative;
@@ -41,9 +47,15 @@
     header.masthead h1 {
       font-size: 2rem;
     }
+
+    @media (min-width: 768px) {
+      align-self center
     .form-row{
       margin-right: -73px;
       margin-left: 101px;
+    
+        
+      }
     }
     
     @media (min-width: 768px) {
