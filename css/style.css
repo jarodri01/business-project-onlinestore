@@ -1,20 +1,20 @@
     .card-footer.text-muted {
-      background-color: blueviolet;
+      background-color: #BE8ABF;
       color: #e9ecef!important;
     }
     .card-footer_bar{
-      color: pink;
+      color:#EA9ABB;
     }
     .card-header {
-      background-color: blueviolet;
+      background-color: #BE8ABF;
       padding-bottom: 10px;
     }
     h3 { 
       text-shadow: 3px 2px white;
-      color: pink;
+      color:#EA9ABB;
     }
     .navbar.navbar-light.bg-light {
-      background-color: pink!important;
+      background-color: #EA9ABB!important;
     }
     .card {
       margin: 0 auto; 
@@ -103,14 +103,14 @@
     cursor: pointer;
     border: none;
     border-radius: 25%;
-    background-color: #ae00ff;
+    background-color: #BE8ABF;
     box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
 }
 .carousel-indicators .active {
     width: 12.5px;
     height: 12.5px;
     margin: 5px;
-    background-color: #ff99c0;
+    background-color: #EA9ABB;
 }
 
   
